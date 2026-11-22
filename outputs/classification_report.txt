@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+       Crack      0.957     0.938     0.947       450
+        Good      0.939     0.962     0.951       450
+     Pothole      0.993     0.989     0.991       450
+
+    accuracy                          0.963      1350
+   macro avg      0.963     0.963     0.963      1350
+weighted avg      0.963     0.963     0.963      1350

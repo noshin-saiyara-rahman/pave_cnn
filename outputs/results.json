@@ -1,0 +1,32 @@
+{
+  "with_aug": {
+    "best_val_acc": 0.9637037037037037,
+    "test_acc": 0.9629629629629629,
+    "test_macro_f1": 0.9629817755924178,
+    "epochs_run": 5,
+    "seconds": 591.6
+  },
+  "no_aug": {
+    "best_val_acc": 0.9866666666666667,
+    "test_acc": 0.9933333333333333,
+    "test_macro_f1": 0.9933363681719078,
+    "epochs_run": 5,
+    "seconds": 559.7
+  },
+  "setup": {
+    "split": "provided split (from the dataset authors)",
+    "img_size": 64,
+    "seed": 42,
+    "n_images": 12000,
+    "n_train": 9300,
+    "n_val": 1350,
+    "n_test": 1350,
+    "classes": [
+      "Crack",
+      "Good",
+      "Pothole"
+    ],
+    "device": "cpu",
+    "quick": false
+  }
+}
